@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col justify-center items-center">
+    <div className="min-h-screen flex flex-col justify-center items-center">
       <div className="max-w-4xl text-center p-6">
         <h1 className="text-5xl font-bold text-gray-800">
           Welcome to VolunteerMatch
@@ -23,4 +23,3 @@ export default function Home() {
     </div>
   );
 }
-
